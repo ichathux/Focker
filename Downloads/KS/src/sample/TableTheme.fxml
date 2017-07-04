@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="700.0">
+         <image>
+            <Image url="@Theme/Images/tbl1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="411.0" layoutY="417.0" mnemonicParsing="false" text="Call" />
+      <Button layoutX="465.0" layoutY="417.0" mnemonicParsing="false" text="Fold" />
+      <Button layoutX="518.0" layoutY="417.0" mnemonicParsing="false" text="Raise" />
+      <ImageView fitHeight="100.0" fitWidth="99.0" layoutX="597.0" layoutY="335.0">
+         <image>
+            <Image url="@Theme/Images/pro1.png" />
+         </image>
+      </ImageView>
+      <Label graphicTextGap="5.0" layoutX="628.0" layoutY="319.0" style="-fx-font-weight: bold;" text="KasH" textFill="#1319ae" />
+      <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="14.0" layoutY="158.0">
+         <image>
+            <Image url="@Theme/Images/pro2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="38.0" layoutY="142.0" style="-fx-font-weight: bold;" text="Ashi" textFill="#e8311d" />
+      <Label layoutX="46.0" layoutY="240.0" text="40$" textFill="YELLOW" />
+      <Label layoutX="628.0" layoutY="435.0" text="40$" textFill="YELLOW" />
+      <ImageView fitHeight="63.0" fitWidth="48.0" layoutX="533.0" layoutY="299.0">
+         <image>
+            <Image url="@../../../../../../mnt/097E1535097E1535/Theme/Images/Cards/Set/4_of_spades.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="48.0" layoutX="479.0" layoutY="299.0">
+         <image>
+            <Image url="@../../../../../../mnt/097E1535097E1535/Theme/Images/Cards/Set/king_of_clubs2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="48.0" layoutX="426.0" layoutY="301.0">
+         <image>
+            <Image url="@../../../../../../mnt/097E1535097E1535/Theme/Images/Cards/3b18bc8000df284484a0dae1ee30be4b.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="48.0" layoutX="374.0" layoutY="302.0">
+         <image>
+            <Image url="@../../../../../../mnt/097E1535097E1535/Theme/Images/Cards/3b18bc8000df284484a0dae1ee30be4b.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="48.0" layoutX="318.0" layoutY="303.0">
+         <image>
+            <Image url="@../../../../../../mnt/097E1535097E1535/Theme/Images/Cards/3b18bc8000df284484a0dae1ee30be4b.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="100.0" layoutY="337.0">
+         <image>
+            <Image url="@Theme/Images/pro3.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nameLabel" layoutX="126.0" layoutY="322.0" style="-fx-font-weight: bold;" text="Isuru" textFill="#e8311d" />
+      <Label layoutX="131.0" layoutY="422.0" text="10$" textFill="YELLOW" />
+      <TextField layoutX="437.0" layoutY="374.0" prefHeight="26.0" prefWidth="135.0" />
+   </children>
+</Pane>
